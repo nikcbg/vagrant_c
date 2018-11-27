@@ -19,9 +19,8 @@ File name                            | File description
 
 Command execution                    | Command outcome
 ------------------------------------ | --------------------------------------------------------------
-`vagrant up` | to power up the nginx64 VM.
-`vagrant ssh` | to log in to the nginx64 VM.
-
+`vagrant up` | to power up the nginx64 and mysql64 VM's.
+`vagrant ssh` | to log in to the nginx64 and mysql64 VM's.
 
 ### TO DO:
 - Check if `web01`, `web02` and `mysql` are created and have the neccesery code installed. 
