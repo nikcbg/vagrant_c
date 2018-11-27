@@ -13,8 +13,8 @@ File name                            | File description
 ### How to use this repository. 
 - Install `virtualbox` by following this [instructions](https://www.virtualbox.org/wiki/Downloads).
 - Install `vagrant` by following this [instructions](https://www.vagrantup.com/docs/installation/).
-- Clone the repository to your local computer: `git clone git@github.com:nikcbg/vagrant_b.git`.
-- Go to the cloned repo on your computer: `cd vagrant_b`.
+- Clone the repository to your local computer: `git clone git@github.com:nikcbg/vagrant_c.git`.
+- Go to the cloned repo on your computer: `cd vagrant_c`.
 - After that execute the commands in the table below.
 
 Command execution                    | Command outcome
