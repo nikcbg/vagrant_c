@@ -4,14 +4,14 @@ Vagrant.configure("2") do |config|
       node.vm.box = "nikcbg/nginx64"
       node.vm.hostname = vm_name
       node.vm.network "forwarded_port", guest: 80, host: 8081, auto_correct: true
-      node.vm.network "private_network", ip: "192.168.0.1"
+      node.vm.network "private_network", ip: "192.168.56.11"
  end
   
     config.vm.define vm_name="web02" do |node|
       node.vm.network "forwarded_port", guest: 80, host: 8082, auto_correct: true
       node.vm.box = "nikcbg/nginx64"
       node.vm.hostname = vm_name
-      node.vm.network "private_network", ip: "192.168.0.2"
+      node.vm.network "private_network", ip: "192.168.56.12"
    end
 
    config.vm.define vm_name="mysql" do |node|
